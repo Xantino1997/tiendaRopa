@@ -1,0 +1,64 @@
+/* src/styles/EnConst.css */
+
+.enconst-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaf6f6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .enconst-box {
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .enconst-box h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .media-container {
+    margin-bottom: 20px;
+  }
+  
+  .media-container img,
+  .media-container video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .back-home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .back-home-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .enconst-box {
+      padding: 20px;
+    }
+  
+    .enconst-box h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
