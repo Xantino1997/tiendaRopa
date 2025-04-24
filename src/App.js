@@ -150,7 +150,7 @@ function App() {
     const navigate = useNavigate();
 
     const handleLogin = () => {
-      if (user === "admin" && pass === "123456") {
+      if (user === "admin" && pass === "tienda2025") {
         setIsAuthenticated(true);
         navigate("/admin");
       } else {
